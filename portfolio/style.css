@@ -178,14 +178,14 @@ nav.content {
   }
 .social{
     background: transparent;
-    top: 0;
+    top: 90vh;
     left: 0;
     right: 0;
     width: auto;
     position: fixed;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: row;
 
   }
