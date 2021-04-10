@@ -182,7 +182,6 @@ nav.content {
     left: 0;
     right: 0;
     width: auto;
-    height: 100px;
     position: fixed;
   display: flex;
   justify-content: center;
