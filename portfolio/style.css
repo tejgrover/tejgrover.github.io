@@ -4,6 +4,28 @@
   box-sizing: border-box;
   font-family: Eksell-Large;
 }
+
+.wrapper {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  overflow:hidden;
+  border:6px solid #fff;
+}
+.wrapper img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  filter:grayscale(100%);
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+
+.wrapper img:hover{
+ transform: scale(1.3); 
+ filter:grayscale(0%);
+}
+
 body{
 
   background: #212121;
