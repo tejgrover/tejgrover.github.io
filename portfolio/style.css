@@ -132,7 +132,7 @@ h6{
   fill: #212121;
 }
 nav.light.social svg:hover{
-  fill: #161616;
+  fill: #eeeeee;
 }
 .sidebar a {
   display: block;
@@ -148,10 +148,10 @@ nav.light.social svg:hover{
 
 /* Links on mouse-over*/
 .sidebar a:hover:not(.active) {
-  color: #eeeeee;
+  color: #212121;
 }
 nav.light.sidebar a:hover{
-  color:#212121;
+  color:#eeeeee;
 }
 
 nav.content {
