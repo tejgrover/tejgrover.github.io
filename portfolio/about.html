@@ -5,6 +5,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Portfolio Hero</title>
     <link rel="stylesheet" href="./css/style.css">
+
+
   </head>
   <STYLE>A {text-decoration: none;} </STYLE>
   <style>
@@ -30,22 +32,26 @@ svg#chart {
       <line x1="25" y1="0" x2="25" y2="600"></line>
       </svg>
     <strong>
-      <!--<a href="#">Home</a>-->
-      <a href="./about.html">About</a>
+      <a href="./index.html">Home</a>
+      <!--<a href="#About">About</a>-->
       <a href="./projects.html">Projects</a>
       <a href="./resume.pdf">Resume</a>
     </strong>
   </nav>
-    <section>
-      <div class="wrapper">
-        <img src="./assets/images/img.png" />
-      </div>
+    
+<section>
       <div  title="Change Theme!">
-        <h1 class="click">Namaste!</h1></title></div>
-    <h2>I'm Tej Grover</h2>
-    <a href="mailto:tejgrover1@gmail.com"><h6>tejgrover1@gmail.com</h6></a>
-  </section>
+        <h1 id="About" class="click">About!</h1></title></div>
+	<textarea disabled style="" class="textarea">I, a computer science and engineering graduate from Kurukshetra University, invite you to explore my portfolio. I am a dynamic and dedicated developer with a deep interest in AR/VR/XR, game development, and web development.
 
+Drawing on my extensive training in programming languages such as C, C++, Java, C# and experience with Oracle Apps, I have created a range of projects that showcase my abilities in both web and game development.
+
+My commitment to staying at the cutting edge of my field is evident through my participation in national-level competitions such as Toycathon, Snapchat Lensfest, and Google Code-In.
+
+To learn more about my background and achievements, visit my LinkedIn profile at [https://www.linkedin.com/in/tejgrover/]. With my combination of technical expertise and a drive to push the boundaries of what's possible, I am poised to make a significant impact in the world of tech.</textarea>
+    <h6 style="padding-inline: 20% 20%;
+writing-mode: horizontal-tb; font-size:20px;"></h6>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript">
@@ -55,6 +61,7 @@ svg#chart {
                 $('body').toggleClass('light')
                 $('nav').toggleClass('light')
                     $('h6').toggleClass('light')
+                    $('textarea').toggleClass('light')
         })
       })
     </script>

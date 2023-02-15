@@ -5,6 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Portfolio Hero</title>
     <link rel="stylesheet" href="./css/style.css">
+
   </head>
   <STYLE>A {text-decoration: none;} </STYLE>
   <style>
@@ -30,22 +31,88 @@ svg#chart {
       <line x1="25" y1="0" x2="25" y2="600"></line>
       </svg>
     <strong>
-      <!--<a href="#">Home</a>-->
+      <a href="./index.html">Home</a>
       <a href="./about.html">About</a>
-      <a href="./projects.html">Projects</a>
+      <!--<a href="#Projects">Projects</a>-->
       <a href="./resume.pdf">Resume</a>
     </strong>
   </nav>
-    <section>
-      <div class="wrapper">
-        <img src="./assets/images/img.png" />
-      </div>
+    
+<section>
       <div  title="Change Theme!">
-        <h1 class="click">Namaste!</h1></title></div>
-    <h2>I'm Tej Grover</h2>
-    <a href="mailto:tejgrover1@gmail.com"><h6>tejgrover1@gmail.com</h6></a>
-  </section>
+        <h1 class="click">Projects!</h1></title></div>
+	<div class="row section recentworks topspace">
+			
+			<div class="grid-container">
+				
+				<div class="grid-item">
+					<a class="thumbnail" href="https://youtu.be/DXtVF-tkxVQ">
+						<span class="img">
+							<img src="assets/images/centauri.png" alt="">
+						</span>
+						<span class="title">Centauri - The Space Adventure</span>
+					</a>
 
+					<span class="details">Game Development | Unreal Engine</span>
+				</div>
+				
+				<div class="grid-item">
+					<a class="thumbnail" href="https://youtu.be/EW1M6CKteMw">
+						<span class="img">
+							<img src="assets/images/toycathon.png" alt="">
+						</span>
+						<span class="title">The Heritage Museum - Mohenjodaro</span>
+					</a>
+					<span class="details">Virtual Reality | Unity 3D | Blender 3D</span>
+				</div>
+				
+				<div class="grid-item">
+					<a class="thumbnail" href="https://youtu.be/F0DsBuSVG-E">
+						<span class="img">
+							<img src="assets/images/cricketvr.png" alt="">
+						</span>
+						<span class="title"><pre>Cricket VR Game
+
+</pre></span>
+					</a>
+					<span class="details">Virtual Reality | Unity 3D | Blender 3D</span>
+				</div>
+
+				<!--<div class="grid-item">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+						</span>
+						<span class="title" >Pure ipsum - development services for people</span>
+					</a>
+					<span class="details">Web design | Logotype</span>
+				</div>
+				
+				<div class="grid-item">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+						</span>
+						<span class="title">Lorem studios - interior and patio design</span>
+					</a>
+					<span class="details">Web design | Logotype</span>
+				</div>-->
+
+				<div class="grid-item">
+					<a class="thumbnail" href="https://github.com/tejgrover?tab=stars">
+						<span class="img">
+							<img src="assets/images/more.png" alt="">
+						</span>
+							<span class="title" ><pre>Load More...
+
+</pre></span>
+					</a>
+					<span class="details">Github</span>
+				</div>
+			</div>
+
+		</div>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript">
@@ -55,6 +122,9 @@ svg#chart {
                 $('body').toggleClass('light')
                 $('nav').toggleClass('light')
                     $('h6').toggleClass('light')
+                    $('textarea').toggleClass('light')
+                    $('.details').toggleClass('light')
+                    $('.thumbnail').toggleClass('light')
         })
       })
     </script>
